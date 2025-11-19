@@ -29,13 +29,13 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${stackSansNotch.variable} antialiased min-h-screen bg-linear-to-t dark:bg-linear-to-t from-[#ffffff] to-[#fdfcff] via-[#f7f1fc] via-10% dark:from-[#0b0b0b] dark:to-[#000000] dark:via-[#080808] via-10%  
+        className={`${geistSans.variable} ${geistMono.variable} ${stackSansNotch.variable} antialiased min-h-screen bg-linear-to-t dark:bg-linear-to-t from-[#ffffff] to-[#fdfcff] via-[#f7f1fc] via-10% dark:from-[#0b0b0b] dark:to-[#000000] dark:via-[#080808] via-10% scrollbar-hide   
         `}
       >
         <ThemeProvider attribute="class" enableSystem defaultTheme="system">
          
-          <div className=" z-50 min-h-screen h-full absolute border border-neutral-100 dark:border-neutral-950 left-1/6"/>
-          <div className=" z-50 min-h-screen h-full absolute border border-neutral-100 dark:border-neutral-950 right-1/6"/>
+          <div className="   min-h-screen h-full absolute border border-[#f4f3f3] dark:border-neutral-950 left-1/6"/>
+          <div className="  min-h-screen h-full absolute border border-[#f4f3f3] dark:border-neutral-950 right-1/6"/>
           <Navbar />
           {children}
         </ThemeProvider>
