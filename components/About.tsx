@@ -6,7 +6,7 @@ import { MountainSnow } from "lucide-react";
 
 export const About = () => {
     return (
-        <section className="py-20 w-full px-4 md:px-8 relative overflow-hidden border-y border-neutral-200 dark:border-neutral-900 rounded-lg shadow-lg shadow-neutral-200 dark:shadow-neutral-900">
+        <section className="py-20 w-full px-4 md:px-8 relative overflow-hidden border-y border-neutral-200 dark:border-neutral-900 rounded-lg shadow-sm shadow-neutral-200 dark:shadow-neutral-900">
             <div className="max-w-6xl mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     {/* Image Content (Left Side) */}
@@ -39,11 +39,11 @@ export const About = () => {
                             About Me
                         </h2>
                         <p className=" text-neutral-600 dark:text-neutral-400 leading-relaxed">
-                            Hello! I'm Priyanshu, a Full-Stack Architect building robust, backend-heavy applications from the serene mountains of Uttarakhand<MountainSnow className=" inline-flex -mt-1 h-4 w-4  mx-1 text-green-800"/>.
+                            Hello! I'm Priyanshu, a Full-Stack developer building backend-heavy applications from the serene mountains of Uttarakhand<MountainSnow className=" inline-flex -mt-1 h-4 w-4  mx-1 text-green-800"/>.
                         </p>
                         <div>
                             <p className="   text-neutral-600 dark:text-neutral-400 leading-relaxed">
-                               I thrive on solving complex business problems and believe in moving fast—which is why I constantly deep-dive into new tech, from Gen AI to DevOps. My coding journey started in early 2023 when I found a clear purpose and a burning desire to build something meaningful. I embraced the challenge of switching from a non-tech background, mastered the real-world skills, and I'm now pursuing my MCA and my dream: to architect the next big thing.
+                               I love solving complex problems and believe in moving fast—which is why I constantly deep-dive into new tech, from Gen AI to DevOps. My coding journey was started in 2023 when I found a clear purpose and a burning desire to build something meaningful. I embraced the challenge of switching from a non-tech background, mastered the real-world skills, and I'm now pursuing my MCA and my dream to architect the next big thing.
                             </p>
                         </div>
 

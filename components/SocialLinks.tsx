@@ -34,7 +34,7 @@ export const SocialLinks = () => {
                     {social.isEmail && copied ? (
                         <TbCheck className="h-6 w-6 text-green-500" />
                     ) : (
-                        <social.Icon className="h-6 w-6" />
+                        <social.Icon className=" md:h-6 md:w-6 h-5 w-5" />
                     )}
 
                     {social.isEmail && (

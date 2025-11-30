@@ -1,7 +1,8 @@
-import React from 'react';
-import { TbBrandNextjs, TbBrandWordpress, TbBriefcase, TbBrandReact, TbBrandTypescript, TbBrandRedux, TbApi, TbLock, TbBrandOperaFilled } from "react-icons/tb";
+"use client";
+import { TbBriefcase, TbBrandOperaFilled } from "react-icons/tb";
 import { GiJewelCrown } from 'react-icons/gi';
 import { FaAdn } from 'react-icons/fa';
+import { motion } from "motion/react";
 
 const experiences = [
     {
@@ -38,7 +39,7 @@ const experiences = [
         iconBg: "bg-purple-100 text-purple-600 dark:bg-purple-900 dark:text-purple-300"
     },
     {
-        role: "Web Developer",
+        role: "Freelance-website",
         company: "Abhilasha Samiti",
         date: "Nov 2025",
         location: "Remote",
@@ -49,9 +50,15 @@ const experiences = [
 ];
 
 export default function Experience() {
-    return ( 
-        <div className="w-full   pt-6  rounded-4xl bg-white/90 border-t border-neutral-100 dark:border-neutral-800 rounded-lg dark:bg-neutral-900/50 mt-10">
-            <h2 className="text-4xl font-black text-neutral-700 dark:text-neutral-200 mb-8 px-3">
+    return (
+        <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, ease: "easeOut" }}
+            viewport={{ once: true }}
+            className="w-full   pt-6  rounded-4xl bg-white/90 border-t border-neutral-100 dark:border-neutral-800 rounded-lg dark:bg-neutral-900/50 mt-10"
+        >
+            <h2 className="text-3xl md:text-4xl font-black text-neutral-700 dark:text-neutral-200 mb-8 px-3">
                 Work Experience
             </h2>
             <div className="space-y-4">
@@ -59,7 +66,7 @@ export default function Experience() {
                     <div
                         key={index}
                         className={` border group rounded-xl transition-all duration-200 ${exp.featured
-                            ? "bg-white dark:bg-neutral-900/50 border border-neutral-200 dark:border-neutral-800 p-6 shadow-sm"
+                            ? "bg-white dark:bg-neutral-900/50 border border-neutral-200 dark:border-neutral-800 p-4 md:p-6 shadow-sm"
                             : "hover:bg-neutral-50 dark:hover:bg-neutral-900/50 p-4 flex items-center gap-4"
                             }`}
                     >
@@ -132,6 +139,6 @@ export default function Experience() {
                     </div>
                 ))}
             </div>
-        </div>
+        </motion.div>
     );
 }

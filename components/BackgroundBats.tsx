@@ -27,7 +27,7 @@ const BackgroundBats = () => {
                     alt="Bat 1"
                     width={80}
                     height={80}
-                    className="opacity-60 dark:invert"
+                    className="opacity-30 md:opacity-60 dark:invert w-10 h-auto md:w-20"
                 />
             </motion.div>
 
@@ -52,7 +52,7 @@ const BackgroundBats = () => {
                     alt="Bat 2"
                     width={100}
                     height={100}
-                    className="opacity-60 dark:invert"
+                    className="opacity-30 md:opacity-60 dark:invert w-12 h-auto md:w-24"
                 />
             </motion.div>
 
@@ -70,14 +70,14 @@ const BackgroundBats = () => {
                     ease: "easeInOut",
                     delay: 2,
                 }}
-                className="absolute left-0 top-0"
+                className="hidden md:block absolute left-0 top-0"
             >
                 <Image
                     src="/bat2.svg"
                     alt="Bat 3"
                     width={60}
                     height={60}
-                    className="opacity-40 dark:invert"
+                    className="opacity-40 dark:invert w-8 h-auto md:w-16"
                 />
             </motion.div>
 
@@ -95,14 +95,14 @@ const BackgroundBats = () => {
                     ease: "easeOut",
                     delay: 8,
                 }}
-                className="absolute left-[2%] bottom-[10%]"
+                className="hidden md:block absolute left-[2%] bottom-[10%]"
             >
                 <Image
                     src="/bat1.svg"
                     alt="Bat 4"
                     width={70}
                     height={70}
-                    className="opacity-50 dark:invert"
+                    className="opacity-50 dark:invert w-8 h-auto md:w-16"
                 />
             </motion.div>
 
@@ -120,14 +120,14 @@ const BackgroundBats = () => {
                     ease: "easeInOut",
                     delay: 3,
                 }}
-                className="absolute right-[10%] top-[15%]"
+                className="hidden md:block absolute right-[10%] top-[15%]"
             >
                 <Image
                     src="/bat2.svg"
                     alt="Bat 5"
                     width={50}
                     height={50}
-                    className="opacity-40 dark:invert"
+                    className="opacity-40 dark:invert w-6 h-auto md:w-12"
                 />
             </motion.div>
 
@@ -145,14 +145,14 @@ const BackgroundBats = () => {
                     ease: "easeIn",
                     delay: 12,
                 }}
-                className="absolute right-[5%] bottom-[5%]"
+                className="hidden md:block absolute right-[5%] bottom-[5%]"
             >
                 <Image
                     src="/bat1.svg"
                     alt="Bat 6"
                     width={90}
                     height={90}
-                    className="opacity-50 dark:invert"
+                    className="opacity-50 dark:invert w-10 h-auto md:w-24"
                 />
             </motion.div>
         </div>

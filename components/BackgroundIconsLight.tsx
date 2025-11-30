@@ -27,7 +27,7 @@ const BackgroundIconsLight = () => {
                     alt="Cloud Sun"
                     width={100}
                     height={100}
-                    className="opacity-70"
+                    className="opacity-70 w-12 h-auto md:w-24"
                 />
             </motion.div>
 
@@ -51,7 +51,7 @@ const BackgroundIconsLight = () => {
                     alt="Sun"
                     width={80}
                     height={80}
-                    className="opacity-60"
+                    className="opacity-60 w-10 h-auto md:w-20"
                 />
             </motion.div>
 
@@ -76,7 +76,7 @@ const BackgroundIconsLight = () => {
                     alt="Earth"
                     width={70}
                     height={70}
-                    className="opacity-50"
+                    className="opacity-50 w-8 h-auto md:w-16"
                 />
             </motion.div>
 
@@ -101,7 +101,7 @@ const BackgroundIconsLight = () => {
                     alt="Heart"
                     width={50}
                     height={50}
-                    className="opacity-40"
+                    className="opacity-40 w-6 h-auto md:w-12"
                 />
             </motion.div>
 
@@ -126,7 +126,7 @@ const BackgroundIconsLight = () => {
                     alt="Mail"
                     width={60}
                     height={60}
-                    className="opacity-50"
+                    className="opacity-50 w-8 h-auto md:w-16"
                 />
             </motion.div>
 
@@ -150,7 +150,7 @@ const BackgroundIconsLight = () => {
                     alt="Organic Flower"
                     width={120}
                     height={120}
-                    className="opacity-30"
+                    className="opacity-30 w-14 h-auto md:w-28"
                 />
             </motion.div>
 
@@ -174,7 +174,7 @@ const BackgroundIconsLight = () => {
                     alt="Sunflower"
                     width={90}
                     height={90}
-                    className="opacity-50"
+                    className="opacity-50 w-10 h-auto md:w-20"
                 />
             </motion.div>
 
@@ -199,7 +199,7 @@ const BackgroundIconsLight = () => {
                     alt="Yellow Flower"
                     width={70}
                     height={70}
-                    className="opacity-50"
+                    className="opacity-50 w-8 h-auto md:w-16"
                 />
             </motion.div>
 
