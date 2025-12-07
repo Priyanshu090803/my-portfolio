@@ -1,7 +1,6 @@
 "use client";
 import Image from 'next/image'
 import { techStack } from "@/utils/techStack"
-import { Button } from './ui/button';
 import { IoDocumentTextOutline } from 'react-icons/io5';
 import Link from 'next/link';
 import { MdOutlinePhoneInTalk } from 'react-icons/md';

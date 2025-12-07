@@ -5,7 +5,6 @@ import { ThemeProvider } from "next-themes";
 import Navbar from "@/components/Navbar";
 import BackgroundBats from "@/components/BackgroundBats";
 import BackgroundIconsLight from "@/components/BackgroundIconsLight";
-import { ReactLenis } from "@/utils/lenis"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
