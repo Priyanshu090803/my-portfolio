@@ -15,7 +15,7 @@ const Hero = () => {
     <div className='min-h-screen w-full   relative'>
 
       {/* Random Decorations */}
-      <div className="absolute border w-full left-0 top-100 border-[#f1f1f1] dark:border-[#0c0c0c]" />
+      <div className="absolute border w-full left-0 top-100 border-[#f1f1f1] dark:border-[#0c0c0c] hidden md:block" />
 
       {/* Profile Section */}
       <div className="space-y-6 w-full ">
@@ -86,7 +86,7 @@ const Hero = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
-            className=' space-y-4 rounded-b-lg border-b border-t w-full -mt-2  py-4 px-4 bg-linear-to-b from-[#f4eff7] to-[rgb(255,252,255)] dark:from-[#030303] dark:to-[rgb(18,17,18)] border-neutral-200 dark:border-neutral-900'
+            className=' space-y-4 rounded-b-lg border-b border-t w-full -mt-2  py-4 px-4 bg-linear-to-b from-[#f4eff7] to-[rgb(255,252,255)] dark:from-[#030303] dark:to-[rgb(18,17,18)] border-neutral-200 dark:border-neutral-900 '
           >
             {/* Tech Line */}
             <p className="text-neutral-400 dark:text-neutral-300 leading-relaxed text-sm md:text-base">
